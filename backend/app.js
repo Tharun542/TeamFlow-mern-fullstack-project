@@ -8,7 +8,7 @@ import cors from 'cors';
 const app = express();
 
 app.use(cors({
-    origin: [ 'http://localhost:5173','http://team-flow-mern-fullstack-project.vercel.app/'],
+    origin: [ 'http://localhost:5173','https://teamflow-mern-fullstack-project-fro.vercel.app'],
     credentials: true
 }));
 app.use(express.json());
